@@ -1,0 +1,96 @@
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4;
+  margin: 0;
+  padding: 0;
+  /* display: flex; */
+  /* justify-content: center; */
+  /* align-items: center; */
+  /* height: 100vh; */
+  background-image: url(/svg-pattern-topography.svg);
+}
+
+/* this is nav bar css dont do any changes in it */
+
+.navbar{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+ justify-content: space-between;
+ background-color: black;
+ color: #f5f5f5;
+ text-align: center;
+}
+.logo{
+
+  justify-content: start;
+
+}
+.links{
+  display: flex;
+  justify-content: end;
+}
+.specificlinks{
+  display: flex;
+  margin-right: 70px;
+  color: #f5f5f5;
+  text-decoration: none;
+  font-size: larger;
+  padding: 15px;
+}
+.specificlinks:hover{
+  border-radius: 5px;
+  border: 2px solid whitesmoke;
+ background-color: rgba(167, 167, 167, 0.659);
+}
+h1{
+  font-size:  35px;
+  margin-left: 200px;
+}
+/* this is form css started */
+form {
+  display: flex;
+  justify-content: center; 
+  
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  flex-direction: column;
+}
+
+h2 {
+  text-align: center;
+  color: #333;
+}
+
+label {
+  display: block;
+  margin-bottom: 8px;
+  color: #333;
+}
+
+input, textarea {
+  width: 100%;
+  padding: 8px;
+  margin-bottom: 16px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+input[type="submit"] {
+  /* background-color: #4caf50; */
+  background-color: #FF6347;
+  color: #fff;
+  cursor: pointer;
+  font-size: 16px;
+  padding: 10px;
+  border: none;
+  border-radius: 4px;
+}
+
+input[type="submit"]:hover {
+  background-color: #da4d34;
+}
